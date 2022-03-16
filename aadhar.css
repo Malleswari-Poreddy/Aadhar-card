@@ -1,0 +1,116 @@
+body {
+  max-width: 100vw;
+}
+.head1 {
+  background-color: orange;
+}
+.head2 {
+  background-color: green;
+}
+.head3 {
+  padding: 10px;
+  font-size: 0.8rem;
+}
+.head4 {
+  padding: 10px;
+  font-size: 0.8rem;
+}
+.aadhar {
+  border: 3px solid black;
+  padding: 10px;
+}
+.qrcode {
+  margin-bottom: -15px;
+}
+.adrno {
+  margin-top: -4px;
+}
+.ysjr {
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .head1 {
+    font-size: 3rem;
+  }
+  .head2 {
+    font-size: 3rem;
+  }
+  .adrno {
+    font-size: 2rem;
+  }
+  .ysjr {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .head1 {
+    font-size: 6rem;
+  }
+  .head2 {
+    font-size: 6rem;
+  }
+  .adrno {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .ysjr {
+    font-size: 4rem;
+  }
+  .qrcode {
+    margin-bottom: -50px;
+  }
+}
+.head3 {
+  background-color: orange;
+}
+.head4 {
+  background-color: green;
+}
+.aadharback {
+  border: 3px solid black;
+  padding: 10px;
+}
+.backpage {
+  font-size: 0.7em;
+  margin-bottom: 0.7rem;
+}
+.aadno2 {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .head3 {
+    font-size: 2rem;
+  }
+  .head4 {
+    font-size: 2rem;
+  }
+  .aadno2 {
+    font-size: 2rem;
+  }
+  .backpage {
+    font-size: 1.5rem;
+  }
+  .aadharback {
+    padding: 15px;
+  }
+}
+@media (min-width: 992px) {
+  .head3 {
+    font-size: 3.5rem;
+  }
+  .head4 {
+    font-size: 3.5rem;
+  }
+  .aadno2 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .backpage {
+    font-size: 2.8rem;
+  }
+  .aadharback {
+    padding: 20px;
+  }
+}
